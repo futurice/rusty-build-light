@@ -87,7 +87,7 @@ First off, don't even try this on Windows. It's not worth the pain. WSL aka Bash
 
  ```bash
  $ cd ~/src/openssl-src
- $ ./Configure linux-generic32 shared --prefix=/home/<your-username>/src/arm-openssl-output --openssldir=~/src/arm-openssl-output/openssl --cross-compile-prefix=/user/bin/arm-linux-gnueabihf-      
+ $ ./Configure linux-generic32 shared --prefix=/home/<your-username>/src/arm-openssl-output --openssldir=~/src/arm-openssl-output/openssl --cross-compile-prefix=/usr/bin/arm-linux-gnueabihf-      
  ```
 
 Explanation:
